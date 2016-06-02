@@ -33,13 +33,6 @@ public class DatabaseActivity extends Activity{
 
         Boolean a=sharedPreferences.getBoolean("ISLOGGEDIN",true);
 
-//        if(!a){
-//            editor.putBoolean("ISLOGGEDIN",false);
-//            editor.apply();
-//            Intent i = new Intent(DatabaseActivity.this, TampilActivity.class);
-//            startActivity(i);
-//
-//        }else {
             setContentView(R.layout.database);
 
             editName = (EditText) findViewById(R.id.editName);
